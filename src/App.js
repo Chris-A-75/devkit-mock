@@ -15,9 +15,9 @@ function App() {
             <Button sx={{color:"grey"}}>Service</Button>
             <Button sx={{color:"grey"}}>Contact</Button>
         </Box>
-        </Box><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-        <Box sx={{display:"flex", flexDirection:{sm:"row", xs:"column"}, pb:"5%"}}>
-        <Box sx={{mr:"20%", ml:"10%"}}>
+        </Box>
+        <Box sx={{display:"flex", flexDirection:{sm:"row", xs:"column"}, pb:"5%", mt:"15%"}}>
+        <Box sx={{pr:"5%", ml:"9%"}}>
             <Typography variant="h4">
                 Welcome to <span style={{color:"blue"}}>Devkit.</span> Develop anything.
             </Typography>
@@ -25,11 +25,11 @@ function App() {
                 Build a beautiful, modern website with flexible components built from scratch
             </Typography>
             <Box sx={{mt:3}}>
-                <Button variant="contained" sx={{mr:3}}> View all pages&nbsp;&nbsp;<ArrowForwardIcon fontSize="small"/></Button>
-                <Button variant="outlined"> Documentation </Button>
+                <Button variant="contained" sx={{mr:2}}> View all pages&nbsp;&nbsp;<ArrowForwardIcon fontSize="small"/></Button>
+                <Button variant="outlined" sx={{mt:{xs:2, sm:0}}}> Documentation </Button>
             </Box>
         </Box>
-        <Box sx={{width:{xs:"100%", sm:1000},transform: {xs:"none", sm:"translateY(-70px)"}}}>
+        <Box sx={{width:{xs:"90%", sm:800},transform: {xs:"none", sm:"translateY(-70px)"}, pl:"10%"}}>
         <img src={image} style={{width:"100%"}}></img>
         </Box>
         </Box>
